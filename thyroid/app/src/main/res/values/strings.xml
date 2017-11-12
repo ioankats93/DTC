@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">DTC</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">register</string>
+    <string name="string_enter_AMI">Εισάγετε AMI</string>
+    <string name="string_enter_AMTH">Εισάγετε AMΘ</string>
+    <string name="string_enter_name">Εισάγετε Ονομα</string>
+    <string name="string_enter_surname">Εισάγετε Επώνυμο</string>
+    <string name="string_enter_telephone">Εισάγετε Τηλέφωνο</string>
+    <string name="string_enter_house">Εισάγετε Κατοικία</string>
+    <string name="string_enter_sex">Εισάγετε Φύλο</string>
+
+    <string name="string_date_of_Birth">Εισάγετε Ημερομηνία Γέννησης</string>
+    <string name="string_diagnosis_age">Εισάγετε Ηλικία κατα την Διάγνωση</string>
+    <string name="string_surgury_date">Εισάγετε Ημερομηνία Χειρουργείου</string>
+    <string name="string_surgeon">Χειρουργός</string>
+    <string name="string_histological">Ιστολογική</string>
+    <string name="string_max_diameter">Μέγιστη Διάμετρος</string>
+    <string name="string_airthmos_estiwn">Αριθμός Εστιών</string>
+    <string name="string_lovos">Λοβός</string>
+    <string name="string_diithisi">Διήθηση</string>
+    <string name="string_arithmos_ekserethentwn_Lns">Αριθμός Εξαιρεθέντων LNs</string>
+    <string name="string_arithmos_diithimenwn_Lns">Αριθμός Διηθημένων LNs</string>
+    <string name="string_stage"> Stage</string>
+    <string name="string_hmeromhnia_metegxeirhtikou">Ημερομηνία Μετεγχειρητικού</string>
+    <string name="string_proetoimasia">Προετοιμασία</string>
+    <string name="string_scan">Scan</string>
+    <string name="string_uptake">Upatake 48h%</string>
+    <string name="string_TSH">TSH</string>
+    <string name="string_HTG">HTG</string>
+    <string name="string_Tg_Ab">Tg-Ab</string>
+    <string name="string_TM">TM</string>
+    <string name="string_us">U/S</string>
+    <string name="string_hmeromhnia_ablation">Ημερομηνία Ablation</string>
+
+    <string name="string_choose_username">Εισάγετε Ψευδώνυμο</string>
+    <string name="string_choose_password">Εισάγετε Κώδικό</string>
+    <string name="string_enter_email">Εισάγετε email</string>
+
+    <string name="button_register">Register</string>
+    <string name="title_activity_notifier">notifier</string>
+    <string name="title_activity_wikimethod">Wikimethod</string>
+
+
+    <string name="title_activity_text_view1">TextView1</string>
+    <string name="title_activity_text_view2">TextView2</string>
+    <string name="title_activity_text_view3">TextView3</string>
+    <string name="title_activity_text_view4">TextView4</string>
+    <string name="title_activity_text_view5">TextView5</string>
+    <string name="title_activity_text_view6">TextView6</string>
+    <string name="title_activity_text_view7">TextView7</string>
+    <string name="title_activity_text_view8">TextView8</string>
+    <string name="title_activity_text_view9">TextView9</string>
+    <string name="title_activity_text_view10">TextView10</string>
+    <string name="title_activity_remindermethod">Remindermethod</string>
+    <string name="title_activity_patiencelogin">patiencelogin</string>
+    <string name="title_activity_registered">registered</string>
+    <string name="title_activity_patientinfo">patientinfo</string>
+
+    <string-array name="header_titles">
+        <item>1. Ορμόνες και ενδοκρινείς αδένες</item>
+        <item>2. Ο Θυρεοειδής αδένας</item>
+        <item>3. Όζοι θυρεοειδούς αδένα</item>
+        <item>4. Κακοήθη νεοπλάσματα θυρεοειδούς</item>
+        <item>5. Αντιμετώπιση καρκίνου θυρεοειδούς αδένα</item>
+        <item>6. Θεραπεία καρκίνου θυρεοειδούς με ραδιενεργό ιώδιο</item>
+        <item>7. Παρακολούθηση ασθενών με θυρεοειδικό καρκίνο (follow-up)</item>
+        <item>8. Καρκίνος θυρεοειδούς και εγκυμοσύνη</item>
+
+        <item>ΒΙΒΛΙΟΓΡΑΦΙΑ</item>
+
+    </string-array>
+
+    <string-array name="h1_titles">
+        <item>1.1 Τι είναι οι ορμόνες και πως δρουν στο σώμα μας;</item>
+        <item>1.2 Ποιοι είναι οι ενδοκρινείς αδένες και πώς λειτουργούν;</item>
+    </string-array>
+
+    <string-array name="h2_titles">
+        <item>2.1 Ποια είναι τα χαρακτηριστικά του θυρεοειδούς αδένα;</item>
+        <item>2.2 Ποιες είναι οι λειτουργίες του θυρεοειδούς και πώς ρυθμίζονται;</item>
+    </string-array>
+
+    <string-array name="h3_titles">
+        <item>3.1 Θυρεοειδικός όζος: Τι είναι και πως αντιμετωπίζονται οι ασθενείς με θυρεοειδικό όζο;</item>
+        <item>3.2 Πόσο σημαντικό είναι το ιστορικό και η φυσική εξέταση του ασθενούς;</item>
+        <item>3.3 Η μέτρηση της TSH στον ορό του αίματος ασθενών με θυρεοειδικό όζο: Γιατί είναι σημαντικό να μετράται η TSH;</item>
+        <item>3.4 Υπερηχογραφικός έλεγχος θυρεοειδούς: Ποιοι πρέπει να υποβάλλονται σε υπερηχογράφημα θυρεοειδούς; </item>
+        <item>3.5 Τι είναι η FNA; Πότε και πώς πρέπει να γίνεται; </item>
+        <item>3.6 Τι σημαίνουν τα αποτελέσματα της βιοψίας μου με FNA; </item>
+        <item>3.7 Ποιες άλλες εργαστηριακές εξετάσεις πρέπει να γίνουν εφόσον έχει διαπιστωθεί η παρουσία όζου στον θυρεοειδή μου;</item>
+        <item>3.8 Σπινθηρογράφημα θυρεοειδούς </item>
+    </string-array>
+
+    <string-array name="h4_titles">
+        <item>4.1 Ταξινόμηση και σταδιοποίηση του θυρεοειδικού καρκίνου</item>
+        <item>4.2 Πόσο συχνός είναι ο καρκίνος του θυρεοειδούς; (Γιατί σε εμένα;)</item>
+        <item>4.3 Ποιοι παράγοντες είναι υπεύθυνοι για την εκδήλωση θυρεοειδικού καρκίνου;</item>
+    </string-array>
+
+    <string-array name="h5_titles">
+        <item>5.1 Ποιοι είναι οι στόχοι της θεραπείας του θυρεοειδικού καρκίνου;</item>
+        <item>5.2 Θυρεοειδεκτομή</item>
+        <item>5.3 Μετεγχειρητικός έλεγχος: Ποίες εξετάσεις πρέπει να κάνω μετά τη θυρεοειδεκτομή;</item>
+    </string-array>
+
+    <string-array name="h6_titles">
+        <item>6.1 Ιστορική αναδρομή ραδιονουκλιδικής θεραπείας</item>
+        <item>6.2 Ποιοι ασθενείς υποβάλλονται σε θεραπεία με ραδιενεργό ιώδιο</item>
+        <item>6.3 Πώς λειτουργεί το ραδιενεργό ιώδιο; Με ποιόν μηχανισμό με θεραπεύει;</item>
+        <item>6.4 Υπάρχουν αντενδείξεις που δεν μου επιτρέπουν να λάβω θεραπευτική δόση ραδιενεργού ιωδίου;</item>
+        <item>6.5 Ποια προετοιμασία πρέπει να κάνω για να υποβληθώ σε θεραπεία με ραδιενεργό ιώδιο;</item>
+        <item>6.6 Πώς γίνεται η χορήγηση θεραπευτικής δόσης ραδιενεργού ιωδίου; Που θα μείνω; Τι θα αντιμετωπίσω κατά την παραμονή μου στο νοσοκομείο;</item>
+        <item>6.7 Ποια μέτρα ακτινοπροστασίας πρέπει να λάβω μετά την έξοδό μου από το νοσοκομείο;</item>
+        <item>6.8 Ποιες ανεπιθύμητες ενέργειες μπορεί να προκαλέσει η θεραπεία με ραδιενεργό ιώδιο;</item>
+        <item>6.9 Τι ακολουθεί μετά τη θεραπεία με ραδιενεργό ιώδιο; </item>
+        <item>6.10 Αλλάζει η διαδικασία της θεραπείας μου εάν διαγνωστώ με μεταστατική νόσο;</item>
+
+    </string-array>
+
+    <string-array name="h7_titles">
+        <item>7.1  Πως ελέγχεται το αποτέλεσμα της θεραπείας με ραδιενεργό ιώδιο;</item>
+        <item>7.2 Ποιες εξετάσεις θα πρέπει να κάνω στα πλαίσια της παρακολούθησής μου (follow-up) εφ’ εξής;</item>
+    </string-array>
+
+    <string-array name="h8_titles">
+        <item>8.1  Καρκίνος θυρεοειδούς και εγκυμοσύνη</item>
+    </string-array>
+
+    <string-array name="h9_titles">
+        <item>1. Tata JR. One hundred years of hormones. EMBO Rep 2005; 6(6):490_6.</item>
+        <item>2. Henderson J. Ernest Starling and Hormones: an historical commentary. J Endocrinol 2005; 184(1):5_10.</item>
+        <item>3. 3.	Εndocrine glands. The pituitary gland and hypothalamus. Open Learning Initiative Introduction to Anatomy and Physiology course. Available at: https://courses.candelalearning.com/olianp/chapter/endocrine-glands/. Assessed January 27, 2015 </item>
+        <item>4. Γκίμπα – Τζαμπίρη Ο. Η Φυσιολογία του Ανθρώπου, 1η Έκδοση, 3ος Τόμος, Θεσσαλονίκη, Εκδόσεις «Ζυγός», 2001: 7_24</item>
+        <item>5. Jameson JL, Weetman AP. Διαταραχές του Θυρεοειδούς Αδένα. In Kasper DL, Fauci AS, Longo DL, Braunwald E, Hauser SL, Jameson JL. Harrison Εσωτερική Παθολογία, 16η Έκδοση, 3ος Τόμος, Αθήνα, Επιστημονικές Εκδόσεις Παρισιανού Α.Ε. 2005: 2268_93.</item>
+        <item>6. Cooper DS, Ladenson PW, Oxon MA. The Thyroid Gland. In Gardner DG, Shoback D. Greenspan’s Basic and Clinical Endocrinology, 9th Edition, New York, Lange Medical Books, McGraw Hill 2011:163_226.</item>
+        <item>7. Lydiatt DD, Bucher  GS. Historical vignettes of the thyroid gland. ClinAnat 2011; 24(1):1_9.</item>
+        <item>8. Moore KL. Κλινική Ανατομία, 3η Έκδοση, 2ος Τόμος, Αθήνα, Ιατρικές Εκδόσεις Π.Χ. Πασχαλίδης. 1998: 871_946.</item>
+        <item>9. National Cancer Institute at the National Institutes of health: PDQ® Parathyroid Cancer Treatment. Bethesda, MD: National Cancer Institute. Accessed April 4, 2015.Accessed April 4, 2015.</item>
+        <item>10. Junqueira LC, Carneiro J. Βασική Ιστολογία, 5η Ελληνική Έκδοση, 2ος Τόμος, Αθήνα, Ιατρικές Εκδόσεις Π.Χ. Πασχαλίδης. 2004:539_62.</item>
+        <item>11. Netter FH. Ανατομία του Ανθρώπου Άτλας Βασικών Ιατρικών Επιστημών. 3η Έκδοση, 1ος Τόμος, Αθήνα, Ιατρικές Εκδόσεις Π.Χ. Πασχαλίδης. 2004: Εικόνα 70.</item>
+        <item>12.© 2012 Pearson Education, Inc. Figure 18_10c. ATLAS: Plate 18c. Available at: http://www.slideshare.net/gwrandall/ch_18lecturepresentation-25361075. Accessed April 5, 2015.</item>
+        <item>13. Jameson JL, Weetman AP. Disorders of the Thyroid Gland. In Kasper DL, Fauci AS, Longo DL, Braunwald E, Hauser SL, Jameson JL. Harrison’s Principles of Internal Medicine, 17th Edition. McGraw Hill 2008. Accessed April 5, 2015. Available at: http://dualibra.com/wp-content/uploads/2012/04/037800~1/Part%2015.%20Endocrinology%20and%20Metabolism/Section%201.%20Endocrinology/335.htm.</item>
+        <item>14. Χατζηπαυλίδου Β. Θεραπεία του καρκίνου του θυρεοειδούς. In: Γραμματικός Φ et al. Eds. Κλινική και εργαστηριακή Πυρηνική Ιατρική σε 20 ειδικότητες. 5th edn. Εκδοτικός Οίκος Αδελφών Κυριακίδη α.ε. Θεσσαλονίκη. 2014; 59_73.</item>
+        <item>15. Haugen BR, Alexander EK, Bible KC et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer: The American Thyroid Association Guidelines Task Force on Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid 2016; 26(1):1_133. </item>
+        <item>16. Figure 49_10 In: Timby ΒΚ, Smith ΝE. Introductory Medical-Surgical Nursing. 11th edn. 2013 Lippincott Williams  Wilkins.</item>
+        <item>17. Figure of FNA. Division of Endocrinology and Metabolism. Jewish General Hospital. McGill. Available at: https://www.mcgill.ca/endocrinology/training/adult/clinical/jgh. Assessed: January 28, 2016.</item>
+        <item>18. Cibas ES, Ali SZ; NCI Thyroid FNA State of the Science Conference. The Bethesda System For Reporting Thyroid Cytopathology. Am J Clin Pathol 2009; 132(5):658_65. </item>
+        <item>19. Carling T, Udelsman R. Cancer of the Endocrine System. Thyroid tumors. In: DeVita VT Jr, Lawrence TS, Rosenberg SA: Cancer: Principles and Practice of Oncology. 10th ed. Philadelphia, Lippincott Williams  Wilkins 2014; 1457_72.</item>
+        <item>20. Tunca F, Sormaz I, Iscan Y, Senyurek YG, Terzioglu T. Comparison of histopathological features and prognosis of classical and follicular variant papillary thyroid carcinoma. J Endocrinol Invest 2015; 38(12):1327_34.</item>
+        <item>21. Lang BH, Lo CY, Chan WF, Lam AK, Wan KY. Classical and follicular variant of papillary thyroid carcinoma: a comparative study on clinicopathologic features and long-term outcome. World J Surg 2006, 30(5):752_8.</item>
+        <item>22. Carling T, Ocal IT, Udelsman R. Special variants of differentiated thyroid cancer: does it alter the extent of surgery versus well-differentiated thyroid cancer? World J Surg 2007; 31(5):916_23</item>
+        <item>23. Scopa CD. Histopathology of thyroid tumors. An overview. Hormones (Athens). 2004;3(2):100_10.</item>
+        <item>24. Jemal A, Siegel R, Ward E, Hao Y, Xu J, Thun MJ. Cancer statistics, 2009. CA Cancer J Clin 2009; 59(4):225_49</item>
+        <item>25. Deschler DG, Moore MG, Smith RV. Tumor Staging by Site TNM Staging of Head and Neck Cancer and Neck Dissection Classification. 4th Edition. American Joint Committee on Cancer (AJCC). Los Angeles. Accessed September 29, 2015. Available at: http://www.entnet.org/sites/default/files/ChapterThreeFINAL.pdf.</item>
+        <item>26. Gaillard F. Lymph Node Levels. Radiopaedia. Org. Accessed: April 4, 2015. Available at: http://radiopaedia.org/images/26383.</item>
+        <item>27. World Health Organization. International Agency for Research on Cancer. Globocan 2012: Estimated Cancer Incidence, Mortality and Prevalence Worldwide in 2012. Accessed February 7, 2015. Available at: http://globocan.iarc.fr/Pages/fact_sheets_cancer.aspx.</item>
+        <item>28. Kilfoy BA, Zheng T, Holford TR et al. International patterns and trends in thyroid cancer incidence, 1973–2002. Cancer Causes and Control 2009;20(5):525–531.</item>
+        <item>29. SEER Stat Fact Sheets: Thyroid Cancer. National Cancer Institute. Surveillance, Epidemiology, and End Result Program. Accessed November 22, 2015. Available at: http://seer.cancer.gov/statfacts/html/thyro.html.</item>
+        <item>30. Estimated incidence, mortality  prevalence for both sexes, 2012: Thyroid Cancer. International Agency for Research on Cancer. World Health Organization. EUCAN. Accessed November 23, 2015. Available at:  http://eco.iarc.fr/eucan/Cancer.aspx?Cancer=35.</item>
+        <item>31. Chen AY, Jemal A, Ward EM. Increasing incidence of differentiated thyroid cancer in the United States, 1988_2005. Cancer 2009; 115(16):3801_7.</item>
+        <item>32. Kent WD, Hall SF, Isotalo PA et al.  Increased incidence of differentiated thyroid carcinoma and detection of subclinical disease. CMAJ  2007;177(11):1357_61.</item>
+        <item>33. Pellegriti G, Frasca F, Regalbuto C et al. Worldwide increasing incidence of thyroid cancer: update on epidemiology and risk factors. J Cancer Epidemiol 2013;2013:965212.</item>
+        <item>34. American Cancer Society. Thyroid Cancer Survival by Type and Stage. Accessed March 18, 2015. Available at: http://www.cancer.org/cancer/thyroidcancer/detailedguide/thyroid-cancer-survival-rates.</item>
+        <item>35. Choi H, Lim JA, Ahn HY et al. Secular trends in the prognostic factors for papillary thyroid cancer. Eur J Endocrinol 2014;171(5):667_75. </item>
+        <item>36. Leux C, Guénel P. Risk factors of thyroid tumors: role of environmental and occupational exposures to chemical pollutants. Rev Epidemiol Sante Publique 2010; 58(5):359_67.</item>
+        <item>37. Moysich KB, Menezes RJ, Michalek AM. Chernobyl-related ionising radiation exposure and cancer risk: an epidemiological review. Lancet Oncol 2002; 3(5):269_79</item>
+        <item>38. Simões-Pereira J, Vieira MS, Pereira MC. Latency Period until the Development of Thyroid Cancer in Young Patients Submitted to Radiotherapy: Report of 10 Cases. Case Rep Oncol 2014; 7(3):810_4.</item>
+        <item>39. Ron E, Lubin JH, Shore RE et al. Thyroid cancer after exposure to external radiation: a pooled analysis of seven studies.  Radiat Res 1995; 141(3):259_77.</item>
+        <item>40. Brenner AV, Tronko MD, Hatch M et al. I-131 dose response for incident thyroid cancers in Ukraine related to the Chornobyl accident. Environ Health Perspect 2011; 119(7):933_9. </item>
+        <item>41. Sarika L, Papathoma A, Garofalaki M et al. Genetic screening of patients with Medullary Thyroid Cancer (MTC) in a referral center in Greece during the past two decades. Eur J Endocrinol 2015 ;172(4):501_9.</item>
+        <item>42. Huang CJ, Jap TS. A systematic review of genetic studies of thyroid disorders in Taiwan. J Chin Med Assoc 2015;78(3):145_153.</item>
+        <item>43. Haymart MR, Repplinger DJ, Leverson GE et al. Higher serum thyroid stimulating hormone level in thyroid nodule patients is associated with greater risks of differentiated thyroid cancer and advanced tumor stage. J Clin Endocrinol Metab 2008; 93(3):809_14. </item>
+        <item>44. Liu CL, Cheng SP, Lin HW, Lai YL. Risk of thyroid cancer in patients with thyroiditis: a population-based cohort study. Ann Surg Oncol 2014; 21(3):843_9.</item>
+        <item>45. American Thyroid Association (ATA) Guidelines Taskforce on Thyroid Nodules and Differentiated Thyroid Cancer, Cooper DS, Doherty GM, Haugen BR et al. Revised American Thyroid Association management guidelines for patients with thyroid nodules and differentiated thyroid cancer. Thyroid 2009; 19(11):1167_214.</item>
+        <item>46. Dal Maso L, Bosetti C, La Vecchia C, Franceschi S. Risk factors for thyroid cancer: an epidemiological review focused on nutritional factors. Cancer Causes Control 2009; 20(1):75_86.</item>
+        <item>47. Wolin KY, Carson K, Colditz GA. Obesity and cancer. Oncologist 2010; 15(6):556_65.</item>
+        <item>48. Ma J, Huang M, Wang L, Ye W et al. Obesity and risk of thyroid cancer: evidence from a meta-analysis of  21 observational studies. Med Sci Monit 2015; 21:283_91.</item>
+        <item>49. Sakoda LC, Horn-Ross PL. Reproductive and menstrual history and papillary thyroid cancer risk: the San Francisco Bay Area thyroid cancer study. Cancer Epidemiol Biomarkers Prev 2002; 11(1):51_7.</item>
+        <item>50. Γιαννούλα Ε. Οικολογική μελέτη συσχέτισης επίπτωσης και θνησιμότητας του καρκίνου του θυρεοειδούς αδένα με τα επίπεδα ατμοσφαιρικών ρύπων στην Ευρωπαϊκή Ένωση. Αδημοσίευτα αποτελέσματα.</item>
+        <item>51. Duntas LH, Doumas C. The rings of fire and thyroid cancer. Hormones (Athens) 2009; 8(4):249_53.</item>
+        <item>52. Hay ID, Bergstralh EJ, Goellner JR, Ebersold JR, Grant CS. Predicting outcome in papillary thyroid carcinoma: development of a reliable prognostic scoring system in a cohort of 1779 patients surgically treated at one institution during 1940 through 1989. Surgery 1993; 114(6):1050_7; discussion 1057_8.</item>
+        <item>53. Tuttle RM, Haddad RI. NCCN Clinical Practic Guidelines in Oncology (NCCN Guidelines®): Thyroid carcinoma. Version 2.2014 ed: National Comprehensive Cancer Network® 2014:1_120. Accessed February 2, 2015. Available at: http://www.nccn.org/professionals/physician_gls/pdf/thyroid.pdf.</item>
+        <item>54. Rabinovics N, Aidan P. Robotic transaxillary thyroid surgery. Gland Surg 2015; 4(5):397_402. </item>
+        <item>55. Christou N, Mathonnet M. Complications after total thyroidectomy. J Visc Surg 2013;150(4):249_56.</item>
+        <item>56. Chen MK, Yasrebi M, Samii J, Staib LH et al. The utility of I-123 pretherapy scan in I-131 radioiodine therapy for thyroid cancer. Thyroid  2012; 22(3):304_9.</item>
+        <item>57. Hu YH, Wang PW, Wang ST et al. Influence of 131I diagnostic dose on subsequent ablation in patients with differentiated thyroid carcinoma: discrepancy between the presence of visually apparent stunning and the impairment of successful ablation. Nucl Med Commun 2004; 25(8):793_7</item>
+        <item>58. Άρσος Γ. Θεραπευτικές Εφαρμογές της Πυρηνικής Ιατρικής. In: Καρακατσάνης Κ, Καρατζάς Ν, Γκοτζαμάνη – Ψαρράκου Α, Άρσος Γ. Πυρηνική Ιατρική. 1η Έκδοση. Εκδόσεις Ζήτη. Θεσσαλονίκη 2003; 205_219.</item>
+        <item>59. Lind P, Igers I, Kohlfurst S. Radioiodine Therapy: Malignant Thyroid Disease. In: Biersack HJ, Freeman LM Eds. Clinical Nuclear Medicine, 1st edn. Springer – Verlag Berlin Heidelberg New York 2007; 418_432.</item>
+        <item>60. Luster M, Clarke SE, Dietlein M, Lassmann M, Lind P, Oyen WJ et al. Guidelines for radioiodine therapy of differentiated thyroid cancer. Eur J Nucl Med Mol Imaging 2008;35(10):1941_59.</item>
+        <item>61. Biology–Forums.com. Accessed: April 6, 2015. Available at: http://biology-forums.com/index.php?action=gallery;sa=view;id=9386</item>
+        <item>62. Thyrogen (thyrotropin alfa for injection) Package Insert. Cambridge, MA. Genzyme Corp. 2014.</item>
+        <item>63. thyroid remnants after preparation with recombinant human thyrotropin in differentiated thyroid carcinoma: results of an international, randomized, controlled Pacini F, Landenson PW, Schlumberger M, et al. Radioiodine ablation of study.  J Clin Endocrinol Metab 2006;91:926-932.</item>
+        <item>64. Low-Iodine Diet: Preparing to Receive Radioactive Iodine. Patient Education. NIH Center. Accessed: April 7, 2016. Available at: http://www.cc.nih.gov/ccc/patient_education/pepubs/lo_io_diet.pdf.</item>
+        <item>65. Fallahi B, Beiki D, Takavar A et al. Low versus high radioiodine dose in postoperative ablation of residual thyroid tissue in patients with differentiated thyroid carcinoma: a large randomized clinical trial. Nucl Med Commun 2012;33(3):275-82. </item>
+        <item>66. Caglar M, Bozkurt FM, Akca CK et al. Comparison of 800 and 3700 MBq iodine-131 for the postoperative ablation of thyroid remnant in patients with low-risk differentiated thyroid cancer. Nucl Med Commun 2012;33(3):268-74. </item>
+        <item>67. Frigren S. European Commission. Radiation Protection 97. Radiation Protection Following Iodine-131 Therapy. Directorate – General Enviroment, Nuclear Safety and Civil Protection. 1998; 4-34.</item>
+        <item>68. Aschebrook-Kilfoy B, James BC, Nagar S, Kaplan S, Seng V, Ahsan H et al. Risk Factors for Decreased Quality of Life in Thyroid Cancer Survivors: Initial Findings from the North American Thyroid Cancer Survivorship Study. Thyroid 2015. [Epub ahead of print]</item>
+        <item>69. Kulkami K, Van Nostrand D, Arkins F. 131-I Ablation and Treatment of Well Differentiated Thyroid Cancer. In Speer TW eds Targeted Radionuclide Therapy. Lipincott Williams and Wilkins, a Wolters Kluwer business, Philadelphia 2011:281-193.</item>
+        <item>70. Verburg FA, Luster M, Cupini C et al. Implications of thyroglobulin antibody positivity in patients with differentiated thyroid cancer: a clinical position statement. Thyroid 2013; 23:1211-1225.</item>
+        <item>71. Khaled H, Al Lahloubi N, Rashad N. A review on thyroid cancer during pregnancy: Multitasking is required. J Adv Res. 2016;7(4):565-70</item>
+
+    </string-array>
+
+
+    <string name="title_activity_view">view</string>
+    <string name="title_activity_view2">view2</string>
+    <string name="title_activity_view3">view3</string>
+    <string name="title_activity_view1c1">view1c1</string>
+    <string name="title_activity_view1c2">view1c2</string>
+    <string name="title_activity_view2c1">view2c1</string>
+    <string name="title_activity_view2c2">view2c2</string>
+    <string name="title_activity_view3c1">view3c1</string>
+    <string name="title_activity_view3c2">view3c2</string>
+    <string name="title_activity_view3c3">view3c3</string>
+    <string name="title_activity_view3c4">view3c4</string>
+    <string name="title_activity_view3c5">view3c5</string>
+    <string name="title_activity_view3c6">view3c6</string>
+    <string name="title_activity_view3c7">view3c7</string>
+    <string name="title_activity_view3c8">view3c8</string>
+    <string name="title_activity_view4c1">view4c1</string>
+    <string name="title_activity_view4c2">view4c2</string>
+    <string name="title_activity_view4c3">view4c3</string>
+    <string name="title_activity_view5c1">view5c1</string>
+    <string name="title_activity_view5c2">view5c2</string>
+    <string name="title_activity_view5c3">view5c3</string>
+    <string name="title_activity_view6c1">view6c1</string>
+    <string name="title_activity_view6c2">view6c2</string>
+    <string name="title_activity_view6c3">view6c3</string>
+    <string name="title_activity_view1b1">view1b1</string>
+    <string name="title_activity_view1b2">view1b2</string>
+    <string name="title_activity_view2b1">view2b1</string>
+    <string name="title_activity_view2b2">view2b2</string>
+    <string name="title_activity_view3b1">view3b1</string>
+    <string name="title_activity_view3b2">view3b2</string>
+    <string name="title_activity_view3b3">view3b3</string>
+    <string name="title_activity_view3b4">view3b4</string>
+    <string name="title_activity_view3b5">view3b5</string>
+    <string name="title_activity_view3b6">view3b6</string>
+    <string name="title_activity_view3b7">view3b7</string>
+    <string name="title_activity_view3b8">view3b8</string>
+    <string name="title_activity_view4b1">view4b1</string>
+    <string name="title_activity_view4b2">view4b2</string>
+    <string name="title_activity_view4b3">view4b3</string>
+    <string name="title_activity_view5b1">view5b1</string>
+    <string name="title_activity_view5b2">view5b2</string>
+    <string name="title_activity_view5b3">view5b3</string>
+    <string name="title_activity_view6b1">view6b1</string>
+    <string name="title_activity_view6b2">view6b2</string>
+    <string name="title_activity_view6b3">view6b3</string>
+    <string name="title_activity_copyright">copyright</string>
+    <string name="title_activity_legal_terms">LegalTerms</string>
+
+
+</resources>

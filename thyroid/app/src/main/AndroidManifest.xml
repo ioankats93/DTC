@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ioanniskatsikavelas.thyroidv1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Wikimethod"
+            android:label="@string/title_activity_wikimethod"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Remindermethod"
+            android:label="@string/title_activity_remindermethod" />
+        <activity
+            android:name=".patiencelogin"
+            android:label="@string/title_activity_patiencelogin" >
+        </activity>
+        <activity
+            android:name=".patientinfo"
+            android:label="@string/title_activity_patientinfo" >
+        </activity>
+        <activity
+            android:name=".view1b1"
+            android:label="@string/title_activity_view1b1" >
+        </activity>
+        <activity
+            android:name=".copyright"
+            android:label="@string/title_activity_copyright"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".LegalTerms"
+            android:label="@string/title_activity_legal_terms" >
+        </activity>
+    </application>
+
+</manifest>

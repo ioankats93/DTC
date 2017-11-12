@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#dddddd">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1"
+            >
+
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#a7a7a8" >
+
+                <ImageButton
+                    android:id="@+id/inside_imageview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+
+                    android:src="@drawable/background_riges" />
+
+                <ImageView
+                    android:id="@+id/outside_imageview"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_alignBottom="@id/inside_imageview"
+                    android:layout_alignLeft="@id/inside_imageview"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dtc_meskia"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"/>
+            </RelativeLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:orientation="vertical"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+                android:background="#dfdfdf">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#dfdfdf">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/middle"
+                    android:background="#dfdfdf">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="APP INFO"
+                        android:textStyle="bold"
+                        android:id="@+id/patienceinfo"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingBottom="10dp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:background="@android:color/black"
+                         />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Version"
+                        android:id="@+id/patienceinfo"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="2dp"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="1.0.0"
+                        android:id="@+id/patienceinfo"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Copyright"
+                        android:id="@+id/patienceinfoa"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="2dp"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="©2017 Giannoula Karamanou Evanthia MD, MSc, PhD cand (egiannoula@auth.gr)"
+                        android:id="@+id/patienceinfoc"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="Legal Terms"
+                        android:id="@+id/legalTermsbt"
+                        android:gravity="left"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#FFB0B0B0"
+                        android:background="#dfdfdf"
+                        android:paddingLeft="10dp"/>
+
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Developer"
+                        android:id="@+id/patienceinfoa"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="2dp"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Ioannis Katsikavelas (ioankats93@gmail.com)"
+                        android:id="@+id/patienceinfoc"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Graphics"
+                        android:id="@+id/patienceinfoa"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="2dp"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="KosMarkatos"
+                        android:id="@+id/patienceinfoc"
+                        android:textColor="#050505"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"/>
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bottom"
+                    android:background="#dfdfdf"
+                    android:orientation="vertical"
+                    android:baselineAligned="false">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </TableLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/textView12312"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="DTC  E - HEALTH APPLICATION "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFB0B0B0"
+        android:background="#dfdfdf"
+        android:paddingBottom="15dp"/>
+
+</RelativeLayout>

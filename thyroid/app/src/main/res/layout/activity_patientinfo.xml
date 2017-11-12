@@ -1,0 +1,480 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="'Ονομα"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Επώνυμο"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Surname"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMI"
+                android:numeric="integer"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/AMI"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMTH"
+                android:numeric="integer"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/AMTH"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ηλικια κατά την διάγνωση"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DiagnosisDate"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ημερομηνία χειρουργείου"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SurgeryDate"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_surgeon"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Surgeon"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_histological"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Histological"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_max_diameter"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MaxDiameter"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_airthmos_estiwn"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ArithmosEstiwn"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_lovos"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lovoi"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_diithisi"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Diithisi"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_arithmos_ekserethentwn_Lns"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ArithmosEkserethentwnLns"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_arithmos_diithimenwn_Lns"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/AirthmosDiithimenwnLns"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_stage"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Stage"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_proetoimasia"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Proetoimasia"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_hmeromhnia_metegxeirhtikou"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/HmeromhniaMetenxeirisis"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_scan"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Scan"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_uptake"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Uptake"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_TSH"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TSH"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_HTG"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/HTG"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_Tg_Ab"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TG"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_TM"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tm"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_us"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Us"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_hmeromhnia_ablation"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#3c3f41"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/AblationDate"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#050505"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
