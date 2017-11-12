@@ -121,10 +121,10 @@
                             android:id="@+id/patienceinfo"
                             android:layout_weight="1"
                             android:gravity="left"
-                            android:paddingBottom="10dp"
+                            android:paddingBottom="40dp"
                             android:paddingTop="10dp"
-                            android:layout_gravity="bottom"
-                            android:layout_alignParentBottom="true"/>
+                            android:layout_below="@+id/patienceinf"
+                            />
 
 
                         <LinearLayout
@@ -133,17 +133,11 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1">
 
-
-
-
-
                         </LinearLayout>
                         <LinearLayout
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
-
-
 
                         </LinearLayout>
 
